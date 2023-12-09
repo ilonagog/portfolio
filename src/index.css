@@ -5,9 +5,307 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(0, 10%, 6%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.containerImage {
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* This ensures the content is centered vertically on the whole viewport height. Adjust as needed. */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .subtitle {
+    /* Adjust styles for smaller screens if needed */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12rem;
+  }
+}
+
+/* .subtitle {
+  display: flex;
+} */
+h3 {
+  color: rgb(221, 205, 205);
+  ;
+}
+
+h1,
+h2,
+
+p {
+  color: rgb(218, 216, 216);
+}
+
+/* .navigation {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+} */
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+.navigation a {
+  text-decoration: none;
+  color: rgb(115, 219, 243);
+
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about h1 {
+  color: rgb(194, 176, 176);
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-weight: bold;
+  font-size: 6.1em;
+  text-transform: lowercase;
+  /* line-height: 1.6; */
+  color: rgb(221, 205, 205);
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px;
+  padding: 0 20px;
+}
+
+.social-icon {
+  /* margin: 0 10px; */
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+.github {
+  margin-right: 5px;
+  color: rgb(250, 255, 254);
+
+}
+
+.linkedin {
+  margin-right: 5px;
+  color: #3aaeea;
+}
+
+.medium {
+  height: 20px;
+  margin-right: 5px;
+  color: #0f1010;
+  background-color: rgb(251, 255, 255)
+}
+
+.email {
+  margin-right: 5px;
+  color: rgb(238, 250, 251);
+}
+
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-color: #135f5f;
+  border: 2px;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  border-color: #135f5f;
+  border: 2px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-size: 1rem;
+  color: #666;
+} */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  border: 2px solid #135f5f;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  height: 225px;
+  padding: 15px;
+  background-color: #135f5f;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+
+.footer {
+  padding: 10px;
+  background-color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 60px;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  display: grid;
+}
+
+.about {
+  padding: 10px;
+  margin: 10px;
+}
+
+.portrait {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 120px;
+}
+
+.story {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #e9e7e7; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(218, 216, 216);
+}
+
+.story h1 {
+  font-size: 2rem;
+  color: rgb(218, 216, 216);
+  margin-bottom: 20px;
+}
+
+.story p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(218, 216, 216);
+  margin-bottom: 15px;
+}
+
+/* Optional: Add styles for different sections within the component */
+.story p:last-child {
+  margin-bottom: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  padding: 25px;
+}
+
+.skills {
+  font-style: italic;
+}
+
+.spacer {
+  margin-bottom: 20px;
 }
