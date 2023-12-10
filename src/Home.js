@@ -3,6 +3,7 @@ import React from 'react';
 import Projects from './Projects'
 import Blogs from "./Blogs"
 import About from './About'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -29,11 +30,13 @@ const Home = () => {
         </div>
       </div>
       <div class="spacer"></div>
-      <About />
+      <Link to="/about"><About />
+      </Link>
+
       <div class="spacer"></div>
-      <Projects />
+      <Link to="/projects"><Projects /></Link>
       <div class="spacer"></div>
-      <Blogs />
+      <Link to="/blogs"><Blogs /></Link>
     </>
   )
 }
