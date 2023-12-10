@@ -30,13 +30,13 @@ const Home = () => {
         </div>
       </div>
       <div class="spacer"></div>
-      <Link to="/about"><About />
-      </Link>
+      <a href="/about"><About />
+      </a>
 
       <div class="spacer"></div>
-      <Link to="/projects"><Projects /></Link>
+      <a href="/projects"><Projects /></a>
       <div class="spacer"></div>
-      <Link to="/blogs"><Blogs /></Link>
+      <a href="/blogs"><Blogs /></a>
     </>
   )
 }
