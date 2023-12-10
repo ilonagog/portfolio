@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                     <div className='footer'>
                         <ul>
-                            <li><a href="https://youtu.be/h8p2yf0A9qw" target="_blank" rel="noopener noreferrer">Demo</a></li>
+                            <li><a href="https://youtu.be/AFQQdaMfCG8" target="_blank" rel="noopener noreferrer">Demo</a></li>
                             <li><a href="https://github.com/ilonagog/vacation-app-rails-react.git" target="_blank" rel="noopener noreferrer">Github</a></li>
                         </ul>
                     </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </div>
                     <div className='footer'>
                         <ul>
-                            <li><a href="https://youtu.be/h8p2yf0A9qw" target="_blank" rel="noopener noreferrer">Demo</a></li>
+                            <li><a href="https://youtu.be/Oflpq-ca2CM" target="_blank" rel="noopener noreferrer">Demo</a></li>
                             <li><a href="https://github.com/ilonagog/trending-movies.git" target="_blank" rel="noopener noreferrer">Github</a></li>
                         </ul>
                     </div>
