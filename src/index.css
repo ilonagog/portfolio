@@ -17,6 +17,7 @@ code {
   display: flex;
   padding: 60px;
   justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .image {
@@ -31,13 +32,11 @@ code {
   justify-content: center;
   align-items: center;
 
-  /* This ensures the content is centered vertically on the whole viewport height. Adjust as needed. */
 }
 
-/* Media query for responsiveness */
 @media (max-width: 768px) {
   .subtitle {
-    /* Adjust styles for smaller screens if needed */
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12rem;
   }
@@ -267,7 +266,7 @@ a:hover {
 }
 
 .story {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: 0 auto;
   padding: 20px;
   /* background-color: #e9e7e7; */
@@ -288,10 +287,10 @@ a:hover {
   margin-bottom: 15px;
 }
 
-/* Optional: Add styles for different sections within the component */
-.story p:last-child {
+
+/* .story p:last-child {
   margin-bottom: 0;
-}
+} */
 
 .app-container {
   min-height: 100vh;
@@ -309,4 +308,20 @@ a:hover {
 
 .spacer {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .containerImage {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .story {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 20px;
+  }
 }
