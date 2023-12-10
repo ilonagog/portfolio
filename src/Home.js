@@ -1,9 +1,7 @@
-
 import React from 'react';
 import Projects from './Projects'
 import Blogs from "./Blogs"
 import About from './About'
-import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -29,14 +27,18 @@ const Home = () => {
           </h3>
         </div>
       </div>
-      <div class="spacer"></div>
-      <a href="#about"><About />
-      </a>
+      <div className="spacer"></div>
+      <div id="about"><About />
+      </div>
 
-      <div class="spacer"></div>
-      <a href="#projects"><Projects /></a>
-      <div class="spacer"></div>
-      <a href="#blogs"><Blogs /></a>
+      <div className="spacer"></div>
+      <div id="projects"><Projects />
+      </div>
+
+      <div className="spacer"></div>
+      <div id="blogs"><Blogs />
+      </div>
+
     </>
   )
 }
