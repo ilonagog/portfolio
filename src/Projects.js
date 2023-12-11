@@ -20,7 +20,7 @@ const Projects = () => {
                     <div className='footer'>
                         <ul>
                             <li><a href="https://youtu.be/wfMdcXJlc1U" target="_blank" rel="noopener noreferrer">Demo</a></li>
-                            <li><a href="https://github.com/ilonagog/capstone-app.git" target="_blank" rel="noopener noreferrer">Github</a></li>
+                            <li><a href="https://github.com/ilonagog/Social.git" target="_blank" rel="noopener noreferrer">Github</a></li>
                         </ul>
                     </div>
                 </div>
