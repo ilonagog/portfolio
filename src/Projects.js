@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                     <div className='footer'>
                         <ul>
-                            <li><a href="https://youtu.be/AFQQdaMfCG8" target="_blank" rel="noopener noreferrer">Demo</a></li>
+                            <li><a href="https://youtu.be/I8GEaRPeYDc" target="_blank" rel="noopener noreferrer">Demo</a></li>
                             <li><a href="https://github.com/ilonagog/vacation-app-rails-react.git" target="_blank" rel="noopener noreferrer">Github</a></li>
                         </ul>
                     </div>
