@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,7 +9,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -31,12 +31,10 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 @media (max-width: 768px) {
   .subtitle {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12rem;
   }
@@ -47,12 +45,10 @@ code {
 } */
 h3 {
   color: rgb(221, 205, 205);
-  ;
 }
 
 h1,
 h2,
-
 p {
   color: rgb(218, 216, 216);
 }
@@ -75,11 +71,9 @@ p {
   padding: 10px;
 }
 
-
 .navigation a {
   text-decoration: none;
   color: rgb(115, 219, 243);
-
 }
 
 .about {
@@ -117,12 +111,9 @@ p {
   text-decoration: none;
 }
 
-
-
 .github {
   margin-right: 5px;
   color: rgb(250, 255, 254);
-
 }
 
 .linkedin {
@@ -134,7 +125,7 @@ p {
   height: 20px;
   margin-right: 5px;
   color: #0f1010;
-  background-color: rgb(251, 255, 255)
+  background-color: rgb(251, 255, 255);
 }
 
 .email {
@@ -217,7 +208,6 @@ p {
   margin-bottom: 5px;
 }
 
-
 .footer {
   padding: 10px;
   background-color: #333;
@@ -287,7 +277,6 @@ a:hover {
   margin-bottom: 15px;
 }
 
-
 /* .story p:last-child {
   margin-bottom: 0;
 } */
@@ -324,4 +313,15 @@ a:hover {
   .image {
     margin-top: 20px;
   }
+}
+
+.flipimage {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+.flipimage:hover {
+  transform: scale(1.6);
+  transition: transform 0.3s ease;
 }
