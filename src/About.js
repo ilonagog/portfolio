@@ -76,7 +76,7 @@ const About = () => {
               and personally. Each day is a step forward in achieving my dreams
               and creating a bright future for my daughter! I would love her to
               become a cybersecurity specialist or software engineer,following
-              in her mom's footsteps, but aa a better version.
+              in her mom's footsteps, but a better version.
             </p>
             <img
               className="flipimage"
