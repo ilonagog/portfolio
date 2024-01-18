@@ -40,7 +40,7 @@ const About = () => {
                 background: "none",
                 outline: "none",
                 cursor: "pointer",
-                color: "rgb(221, 205, 205)",
+                color: "rgb(24 194 66)",
               }}
             >
               More about me
